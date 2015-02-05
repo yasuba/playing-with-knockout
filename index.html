@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>Knockout Practice</h1>
-  <p>The day of the week is <span data-bind="text: dayOfWeek">Monday</span>. It's time for <span data-bind="text: activity"></span></p>
+  <p>The day of the week is <span data-bind="text: dayOfWeek"></span>. It's time for <span data-bind="text: activity"></span></p>
 
   <p>Day: <input data-bind="value: day" /></p>
   <p>Month: <input data-bind="value: month" /></p>
@@ -13,7 +13,6 @@
   <p>The current date is <span data-bind="text: fullDate"></span></p>
 
   <p>Today is <span data-bind="text: daysOfWeek()[3]"></span></p>
-
 
   <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
   <script type='text/javascript' src='knockout-2.0.0.js'></script>
